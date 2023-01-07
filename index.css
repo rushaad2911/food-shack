@@ -35,9 +35,10 @@ iframe{
 
     
     display:inline-flex;
-    margin-top:15rem;
+    margin-top:15gitrem;
     margin-bottom:5rem;
     white-space:nowrap;
+    max-height: 35rem;
   
    
 
@@ -47,8 +48,9 @@ iframe{
 .food-img{
 
    
-    width:20rem;
-    height:20rem;
+    width:18rem;
+    height:18rem;
+    
     
     
     
@@ -66,8 +68,8 @@ iframe{
    
     box-shadow: 0px 30px 100px #0c363e;
     border-radius: 20px;
-    width:30rem;
-    height:35rem;
+    width:28rem;
+    height:23rem;
     background-color: #0fa1ba;
     transition: 0.5s;
 }
@@ -75,8 +77,9 @@ iframe{
 .food-list>.food-item:hover{
 
     
-    width:35rem;
-    height:45rem;
+ 
+    width:31rem;
+    height:36rem;
     z-index:5;
     transition: 1s;
    
@@ -99,4 +102,12 @@ hr{
 
     visibility: hidden;
    
+}
+
+.info-h1{
+
+    font-size: 5rem;
+    color:aliceblue;
+    padding-left:10%;
+    
 }
