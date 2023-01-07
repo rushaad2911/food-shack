@@ -38,10 +38,9 @@ body{
     margin-top:15rem;
     margin-bottom:5rem;
     white-space:nowrap;
-    max-height: 35rem;
-    overflow: scroll;
-    max-width: 100%;
+    max-height: 36rem;
 
+    
     
 }
 
@@ -68,9 +67,9 @@ body{
    
     box-shadow: 0px 50px 70px #e6526f;
     border-radius: 20px;
-    width:28rem;
-    height:23rem;
-    background-color: #FF597B;
+    width:26rem;
+    height:24rem;
+    background-color: #f86482;
     transition: 0.5s;
 }
 
@@ -79,18 +78,14 @@ body{
     
  
     width:29rem;
-    height:24rem;
+    height:25rem;
     z-index:5;
     transition: 1s;
-    box-shadow: 0px 30px 80px #7a2a3a;
+    box-shadow: 0px 30px 80px #641d2c;
    
 
 }
 
-hr{
-    width:90%;
-
-}
 
 .food-title{
 
@@ -116,7 +111,7 @@ hr{
     
 }
 
-.info-img1{
+.info-img{
 
     float:left;
     border:none;
@@ -131,40 +126,98 @@ hr{
 }
 
 
-.info-line1{
+.info-line{
 
     height: 150px;
     margin-left: 8rem;
-    margin-top: 5rem;
+    margin-top: 8rem;
     
-
-}
-.info-line2{
-
-    height: 150px;
-    padding-left: 20rem;
-    margin-top:5rem;
-    display: inline;
     
 
 }
 
-.info-p1{
+
+.info-p{
 
     font-size: 2rem;
     align-content: center;
-    padding-top:5rem;
+    padding-top:2rem;
     margin-left: 10rem;
     color:#FF597B ;
+    
   
 }
 
-.info-p2{
-    font-size: 2rem;
-    align-content: center;
-    padding-top:5rem;
-    margin-right: 15rem;
-    margin-left:5rem;
-    color:#FF597B ;
 
+
+.info-title{
+ 
+    font-size: 4rem;
+    margin-bottom:-1rem;
+    margin-top:5rem;
+    margin-left:-6rem;
+    padding-right:300px;
+    text-align: left;
+    color:#bf304d;
+   
 }
+
+.img1{
+
+    margin-top:-3rem;
+}
+.img2{
+    
+    margin-top:-4rem;
+}
+
+
+.img3{
+
+    margin-top:-5rem;
+}
+
+.info-title{
+
+ 
+    padding-left:20rem;
+    font-family:'Luckiest Guy' ;
+}
+
+
+#freepik_stories-pizza-maker{
+    width:700px;
+    height:700px;
+    float:right;
+    margin-right:9rem;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #bf304d;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-family: 'Luckiest Guy';
+  }
+  
+  li {
+    float: left;
+    font-size: 2rem;
+    border-right: 1px  white;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #861b30;
+  }
