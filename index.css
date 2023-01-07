@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: #0e8ea5;
+    background-color: #EEEEEE;
 
 }
 
@@ -18,11 +18,11 @@ body{
     font-size:150px;
     transform: rotate(-30deg);
     font-family:'Luckiest Guy';
-    color:aliceblue;
+    color:#FF597B;
     float:left;
     margin-top:10rem;
 }
-iframe{
+.title-img{
 
     float:right;
     margin-top:10px;
@@ -35,12 +35,12 @@ iframe{
 
     
     display:inline-flex;
-    margin-top:15gitrem;
+    margin-top:15rem;
     margin-bottom:5rem;
     white-space:nowrap;
     max-height: 35rem;
-  
-   
+    overflow: scroll;
+    max-width: 100%;
 
     
 }
@@ -66,11 +66,11 @@ iframe{
     flex-direction:column;
     margin-left:5rem;
    
-    box-shadow: 0px 30px 100px #0c363e;
+    box-shadow: 0px 50px 70px #e6526f;
     border-radius: 20px;
     width:28rem;
     height:23rem;
-    background-color: #0fa1ba;
+    background-color: #FF597B;
     transition: 0.5s;
 }
 
@@ -78,10 +78,11 @@ iframe{
 
     
  
-    width:31rem;
-    height:36rem;
+    width:29rem;
+    height:24rem;
     z-index:5;
     transition: 1s;
+    box-shadow: 0px 30px 80px #7a2a3a;
    
 
 }
@@ -93,7 +94,7 @@ hr{
 
 .food-title{
 
-    color:aliceblue;
+    color:#EEEEEE;
     font-size: 50px;
     font-family: 'Fjalla One';
 }
@@ -106,8 +107,64 @@ hr{
 
 .info-h1{
 
-    font-size: 5rem;
-    color:aliceblue;
-    padding-left:10%;
+    font-size: 6rem;
+    color:#FF597B;
+    font-family:'Luckiest Guy';
+    padding-left:5%;
+    margin-top:2rem;
+    margin-bottom: 5rem;
     
+}
+
+.info-img1{
+
+    float:left;
+    border:none;
+    margin-left: -5rem;
+}
+.info-img2{
+
+    float:right;
+    border:none;
+    margin-top: -11rem;
+    
+}
+
+
+.info-line1{
+
+    height: 150px;
+    margin-left: 8rem;
+    margin-top: 5rem;
+    
+
+}
+.info-line2{
+
+    height: 150px;
+    padding-left: 20rem;
+    margin-top:5rem;
+    display: inline;
+    
+
+}
+
+.info-p1{
+
+    font-size: 2rem;
+    align-content: center;
+    padding-top:5rem;
+    margin-left: 10rem;
+    color:#FF597B ;
+  
+}
+
+.info-p2{
+    font-size: 2rem;
+    align-content: center;
+    padding-top:5rem;
+    margin-right: 15rem;
+    margin-left:5rem;
+    color:#FF597B ;
+
 }
